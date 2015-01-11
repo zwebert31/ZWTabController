@@ -81,10 +81,9 @@
 		8B316A501A62E6A500F57B5D /* ZWTabController */ = {
 			isa = PBXGroup;
 			children = (
+				8B316A771A63078F00F57B5D /* Classes */,
 				8B316A551A62E6A500F57B5D /* AppDelegate.h */,
 				8B316A561A62E6A500F57B5D /* AppDelegate.m */,
-				8B316A581A62E6A500F57B5D /* ViewController.h */,
-				8B316A591A62E6A500F57B5D /* ViewController.m */,
 				8B316A5B1A62E6A500F57B5D /* Main.storyboard */,
 				8B316A5E1A62E6A500F57B5D /* Images.xcassets */,
 				8B316A601A62E6A500F57B5D /* LaunchScreen.xib */,
@@ -117,6 +116,15 @@
 				8B316A6C1A62E6A500F57B5D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B316A771A63078F00F57B5D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8B316A581A62E6A500F57B5D /* ViewController.h */,
+				8B316A591A62E6A500F57B5D /* ViewController.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
