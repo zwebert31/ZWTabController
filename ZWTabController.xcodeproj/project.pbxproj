@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8B316A541A62E6A500F57B5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B316A531A62E6A500F57B5D /* main.m */; };
 		8B316A571A62E6A500F57B5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B316A561A62E6A500F57B5D /* AppDelegate.m */; };
-		8B316A5A1A62E6A500F57B5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B316A591A62E6A500F57B5D /* ViewController.m */; };
+		8B316A5A1A62E6A500F57B5D /* ZWTabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B316A591A62E6A500F57B5D /* ZWTabController.m */; };
 		8B316A5D1A62E6A500F57B5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B316A5B1A62E6A500F57B5D /* Main.storyboard */; };
 		8B316A5F1A62E6A500F57B5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B316A5E1A62E6A500F57B5D /* Images.xcassets */; };
 		8B316A621A62E6A500F57B5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B316A601A62E6A500F57B5D /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		8B316A531A62E6A500F57B5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8B316A551A62E6A500F57B5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8B316A561A62E6A500F57B5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8B316A581A62E6A500F57B5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8B316A591A62E6A500F57B5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B316A581A62E6A500F57B5D /* ZWTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWTabController.h; sourceTree = "<group>"; };
+		8B316A591A62E6A500F57B5D /* ZWTabController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWTabController.m; sourceTree = "<group>"; };
 		8B316A5C1A62E6A500F57B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B316A5E1A62E6A500F57B5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8B316A611A62E6A500F57B5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -121,8 +121,8 @@
 		8B316A771A63078F00F57B5D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8B316A581A62E6A500F57B5D /* ViewController.h */,
-				8B316A591A62E6A500F57B5D /* ViewController.m */,
+				8B316A581A62E6A500F57B5D /* ZWTabController.h */,
+				8B316A591A62E6A500F57B5D /* ZWTabController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -227,7 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B316A5A1A62E6A500F57B5D /* ViewController.m in Sources */,
+				8B316A5A1A62E6A500F57B5D /* ZWTabController.m in Sources */,
 				8B316A571A62E6A500F57B5D /* AppDelegate.m in Sources */,
 				8B316A541A62E6A500F57B5D /* main.m in Sources */,
 			);
@@ -422,6 +422,7 @@
 				8B316A731A62E6A500F57B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B316A741A62E6A500F57B5D /* Build configuration list for PBXNativeTarget "ZWTabControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				8B316A761A62E6A500F57B5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

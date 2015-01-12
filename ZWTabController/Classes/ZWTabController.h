@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIScrollViewDelegate>
+@interface ZWTabController : UIViewController <UIScrollViewDelegate>
 @property (nonatomic, strong) NSArray* viewControllers;
 -(void)didScrollToIndex:(NSInteger)index;
 -(void)willScrollToIndex:(NSInteger)index;

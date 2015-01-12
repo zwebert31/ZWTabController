@@ -6,9 +6,9 @@
 //  Copyright (c) 2015 Zachary Webert. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ZWTabController.h"
 
-@interface ViewController ()
+@interface ZWTabController ()
 {
     NSMutableArray *_btns;
     UIView *_selectorView;
@@ -16,8 +16,15 @@
 }
 @end
 
-@implementation ViewController
+@implementation ZWTabController
 
+-(id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    self = [super initWithNibName:nil bundle:nil];
+    if (self) {
+        
+    }
+    return self;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupView];
@@ -27,14 +34,6 @@
     [super viewDidLoad];
     
     [[self.view subviews] makeObjectsPerformSelector:@selector(removeFromSuperview)];
-    UIViewController *first = [[UIViewController alloc] init];
-    first.navigationItem.title = @"First";
-    first.view.backgroundColor = [UIColor redColor];
-    
-    UIViewController *second = [[UIViewController alloc] init];
-    second.navigationItem.title = @"Second";
-    second.view.backgroundColor = [UIColor purpleColor];
-    self.viewControllers = @[first, second];
     
     //setup buttons
     CGFloat btnWidth = self.view.frame.size.width / self.viewControllers.count;
